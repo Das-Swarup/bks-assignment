@@ -1,0 +1,83 @@
+.home-container{
+    display: flex;
+}
+
+.home-main{
+    background: #ffffffe5;
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.home-btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-user{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.home-user img{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.home-card{
+    background: #ffffff4d;
+    color: white;
+    border-radius: 10px;
+    width: 320px;
+}
+
+.project-count{
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+}
+
+.counts{
+    margin-top: -10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.count{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.count p{
+    font-size: 12px;
+}
+
+.count h4{
+    margin-top: -2px;
+    padding-left: 0.2rem;
+    font-size: 20px;
+}
+
+.total{
+    border-left: 3px solid blue;
+}
+
+.complete{
+    border-left: 3px solid green;
+}
+
+.progress{
+    border-left: 3px solid yellow;
+}
+
+.overdue{
+    border-left: 3px solid red;
+}
