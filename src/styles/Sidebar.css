@@ -1,8 +1,16 @@
 .sidebar{
     padding-top: 4rem;
-    margin: 2rem;
-    font-size: 3rem;
+    padding-left: 1rem;
+    margin: 1.5rem;
+    font-size: 2.5rem;
     display: flex;
     flex-direction: column;
     gap: 3rem;
+}
+
+.active{
+    background: #ffffffe5;
+    padding: 1.5rem;
+    margin: -1.5rem;
+    border-radius: 15px 0 0 15px;
 }

@@ -1,5 +1,6 @@
 import { initializeApp } from "firebase/app";
-import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
+import { getAuth } from "firebase/auth";
+import { getFirestore, collection } from "firebase/firestore";
 
 const app = initializeApp({
   apiKey: "AIzaSyBNpG8wbgodZitGrKcmR7gCSDRlxME-Lqs",
@@ -12,5 +13,7 @@ const app = initializeApp({
 });
 
 const auth = getAuth(app);
+const db = getFirestore(app);
+const userStore = collection(db, 'projects')
 
-export {auth, app};
+export {auth, app, userStore};
